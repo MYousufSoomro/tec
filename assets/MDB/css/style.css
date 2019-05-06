@@ -1,0 +1,25 @@
+.site-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px darkgray;
+}
+
+#carousel-example-2 {
+    box-shadow: 0px 2px 10px black;
+}
+
+.map-container-6 {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container-6 iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
