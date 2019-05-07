@@ -41,6 +41,7 @@
     <link href="../assets/MDB/css/mdb.min.css" rel="stylesheet" />
     <!-- Your custom styles (optional) -->
     <link href="../assets/MDB/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../assets/css/infinite-slider.css" />
     <link
       rel="shortcut icon"
       type="image/png"
@@ -70,19 +71,20 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item ">
-            <a class="nav-link" href="../index.html"
-              >Home
-              
-            </a>
+            <a class="nav-link" href="../index.html">Home </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./clients.html">Clients</a>
+          <li class="nav-item active">
+            <a class="nav-link" href="./clients.html">Clients
+              <span class="sr-only">(current)</span>
+            </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="http://bit.ly/2VqwDN6" target="_blank">Company Profile</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./ongoing-projects.html">Ongoing Projects</a>
+            <a class="nav-link" href="./ongoing-projects.html"
+              >Ongoing Projects</a
+            >
           </li>
           <li class="nav-item dropdown">
             <a
@@ -106,9 +108,10 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Projects Gallery</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="./contact-us.html">Contact Us
-              <span class="sr-only">(current)</span>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact-us.html"
+              >Contact Us
+              
             </a>
           </li>
         </ul>
@@ -155,119 +158,50 @@
     <!--/.Navbar -->
 
     <div class="container container-fluid">
-      <!--Section: Contact v.1-->
-      <section class="section pb-5">
-        <!--Section heading-->
-        <h2 class="section-heading h1 pt-4 text-center">Contact us</h2>
-        <!--Section description-->
-        <h4 class="pb-4 text-center mb-5">
-          If you have any enquiry, feel free to contact us at one of the
-          following medium.
-        </h4>
-
-        <div class="row">
-          <!--Grid column-->
-          <div class="col-lg-5 mb-4">
-            <!--Form with header-->
-            <div class="card">
-              <div class="card-body">
-                <!--Header-->
-                <div class="form-header blue accent-1">
-                  <h3><i class="fas fa-envelope"></i> Write to us:</h3>
-                </div>
-
-                <p>We'll write rarely, but only the best content.</p>
-                <br />
-
-                <!-- Body-->
-                <div class="md-form">
-                  <i class="fas fa-user prefix grey-text"></i>
-                  <input type="text" id="form-name" class="form-control" />
-                  <label for="form-name">Your name</label>
-                </div>
-
-                <div class="md-form">
-                  <i class="fas fa-envelope prefix grey-text"></i>
-                  <input type="text" id="form-email" class="form-control" />
-                  <label for="form-email">Your email</label>
-                </div>
-
-                <div class="md-form">
-                  <i class="fas fa-tag prefix grey-text"></i>
-                  <input type="text" id="form-Subject" class="form-control" />
-                  <label for="form-Subject">Subject</label>
-                </div>
-
-                <div class="md-form">
-                  <i class="fas fa-pencil-alt prefix grey-text"></i>
-                  <textarea
-                    id="form-text"
-                    class="form-control md-textarea"
-                    rows="3"
-                  ></textarea>
-                  <label for="form-text">Message</label>
-                </div>
-
-                <div class="text-center mt-4">
-                  <button class="btn btn-light-blue" onClick="contactUsForm()">
-                    Continue...
-                  </button>
-                </div>
-              </div>
-            </div>
-            <!--Form with header-->
+      <div class="container">
+        <h1 class="text-center">Our Clients</h1>
+        <section class="customer-logos slider">
+          <div class="slide">
+            <img
+              src="../assets/images/clients/kirby-building-systems-official-logo.png"
+            />
           </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-lg-7">
-            <!--Google map-->
-            <div
-              id="map-container-google-11"
-              class="z-depth-1-half map-container-6"
-              style="height: 400px"
-            >
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14473.394387879864!2d67.0959114!3d24.9201918!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa932bc824c883775!2sTop+Engineering+Construction!5e0!3m2!1sen!2s!4v1556959261006!5m2!1sen!2s"
-                frameborder="0"
-                style="border:0"
-                allowfullscreen
-              ></iframe>
-            </div>
-
-            <br />
-            <!--Buttons-->
-            <div class="row text-center">
-              <div class="col-md-4">
-                <a class="btn-floating blue accent-1"
-                  ><i class="fas fa-map-marker-alt"></i
-                ></a>
-                <p>
-                  C-5 Second Floor, Momin Square, Near NIPA Block-06
-                  Gulshan-e-Iqbal, Karachi, 🇵🇰
-                </p>
-              </div>
-
-              <div class="col-md-4">
-                <a class="btn-floating blue accent-1"
-                  ><i class="fas fa-phone"></i
-                ></a>
-                <p>+ 92 21 34970117</p>
-                <p>Mon - Sat, 9:00-18:00</p>
-              </div>
-
-              <div class="col-md-4">
-                <a class="btn-floating blue accent-1"
-                  ><i class="fas fa-envelope"></i
-                ></a>
-                <p>info@tecpk.com</p>
-              </div>
-            </div>
+          <div class="slide">
+            <img
+              src="../assets/images/clients/meemar-building-systems-official-logo.png"
+            />
           </div>
-          <!--Grid column-->
-        </div>
-      </section>
-      <!--Section: Contact v.1-->
+          <div class="slide">
+            <img src="../assets/images/clients/nespak-official-logo.png" />
+          </div>
+          <div class="slide">
+              <img
+                src="../assets/images/clients/kirby-building-systems-official-logo.png"
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="../assets/images/clients/meemar-building-systems-official-logo.png"
+              />
+            </div>
+            <div class="slide">
+              <img src="../assets/images/clients/nespak-official-logo.png" />
+            </div>
+            <div class="slide">
+                <img
+                  src="../assets/images/clients/kirby-building-systems-official-logo.png"
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src="../assets/images/clients/meemar-building-systems-official-logo.png"
+                />
+              </div>
+              <div class="slide">
+                <img src="../assets/images/clients/nespak-official-logo.png" />
+              </div>
+        </section>
+      </div>
     </div>
 
     <!-- Footer -->
@@ -430,5 +364,8 @@
     <script type="text/javascript" src="../assets/MDB/js/mdb.min.js"></script>
 
     <script type="text/javascript" src="../assets/js/app.js"></script>
+    <!-- carousel JS files -->
+    <script type="text/javascript" src="../assets/js/carousel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
   </body>
 </html>

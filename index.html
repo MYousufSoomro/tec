@@ -46,12 +46,13 @@
       type="image/png"
       href="./assets/images/official-tec-logo.png"
     />
+    <link rel="stylesheet" href="./assets/css/infinite-slider.css">
   </head>
 
   <body>
     <!--Navbar -->
     <nav
-      class="mb-1 navbar navbar-expand-lg navbar-dark primary-color lighten-5"
+      class="mb-1 navbar navbar-expand-lg navbar-dark primary-color lighten-5 sticky-top"
     >
       <a class="navbar-brand site-title" href="./index.html"
         >Top Engineering Construction</a
@@ -76,13 +77,15 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Clients</a>
+            <a class="nav-link" href="./pages/clients.html">Clients</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Profile</a>
+            <a class="nav-link" href="http://bit.ly/2VqwDN6" target="_blank">Company Profile</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./pages/ongoing-projects.html">Ongoing Projects</a>
+            <a class="nav-link" href="./pages/ongoing-projects.html"
+              >Ongoing Projects</a
+            >
           </li>
           <li class="nav-item dropdown">
             <a
@@ -112,22 +115,38 @@
         </ul>
         <ul class="navbar-nav ml-auto nav-flex-icons">
           <li class="nav-item">
-            <a href="https://www.facebook.com/tecpk" target="_blank" class="nav-link waves-effect waves-light">
+            <a
+              href="https://www.facebook.com/tecpk"
+              target="_blank"
+              class="nav-link waves-effect waves-light"
+            >
               <i class="fab fa-facebook"></i>
             </a>
           </li>
           <li class="nav-item">
-            <a href="https://www.twitter.com/tec_pk" target="_blank" class="nav-link waves-effect waves-light">
+            <a
+              href="https://www.twitter.com/tec_pk"
+              target="_blank"
+              class="nav-link waves-effect waves-light"
+            >
               <i class="fab fa-twitter"></i>
             </a>
           </li>
           <li class="nav-item">
-            <a href="https://www.linkedin.com/company/top-engineering-construction" target="_blank" class="nav-link waves-effect waves-light">
+            <a
+              href="https://www.linkedin.com/company/top-engineering-construction"
+              target="_blank"
+              class="nav-link waves-effect waves-light"
+            >
               <i class="fab fa-linkedin"></i>
             </a>
           </li>
           <li class="nav-item">
-            <a href="https://goo.gl/maps/oTrAAsQ2FCaYyQBc8" target="_blank" class="nav-link waves-effect waves-light">
+            <a
+              href="https://goo.gl/maps/oTrAAsQ2FCaYyQBc8"
+              target="_blank"
+              class="nav-link waves-effect waves-light"
+            >
               <i class="fas fa-map-marker-alt"></i>
             </a>
           </li>
@@ -153,6 +172,7 @@
           <li data-target="#carousel-example-2" data-slide-to="1"></li>
           <li data-target="#carousel-example-2" data-slide-to="2"></li>
           <li data-target="#carousel-example-2" data-slide-to="3"></li>
+          <li data-target="#carousel-example-2" data-slide-to="4"></li>
         </ol>
         <!--/.Indicators-->
         <!--Slides-->
@@ -226,6 +246,24 @@
               <p>
                 Construction of Production Plant, Utility Building, Warehouse &
                 Infrastructure
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+              <img
+                class="d-block w-100"
+                src="./assets/images/ici pakistan peb work.jpg"
+                alt="ICI Paints, Karachi"
+              />
+              <div class="mask rgba-black-light"></div>
+            </div>
+            <div class="carousel-caption">
+              <h3 class="h3-responsive">ICI Paints, Karachi</h3>
+              <p>
+                Erection of Pre-Engineered Building supplied by Meemar Building
+                Systems
               </p>
             </div>
           </div>
@@ -467,6 +505,53 @@
         <!-- Grid row -->
       </section>
       <!-- Section: Team v.1 -->
+      <hr />
+      <!-- Clients Section START -->
+      <div class="container">
+          <h2 class="h1-responsive font-weight-bold my-5">Our Clients</h2>
+        <section class="customer-logos slider clientsArea">
+          <div class="slide">
+            <img
+              src="./assets/images/clients/kirby-building-systems-official-logo.png"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="./assets/images/clients/meemar-building-systems-official-logo.png"
+            />
+          </div>
+          <div class="slide">
+            <img src="./assets/images/clients/nespak-official-logo.png" />
+          </div>
+          <div class="slide">
+            <img
+              src="./assets/images/clients/kirby-building-systems-official-logo.png"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="./assets/images/clients/meemar-building-systems-official-logo.png"
+            />
+          </div>
+          <div class="slide">
+            <img src="./assets/images/clients/nespak-official-logo.png" />
+          </div>
+          <div class="slide">
+            <img
+              src="./assets/images/clients/kirby-building-systems-official-logo.png"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="./assets/images/clients/meemar-building-systems-official-logo.png"
+            />
+          </div>
+          <div class="slide">
+            <img src="./assets/images/clients/nespak-official-logo.png" />
+          </div>
+        </section>
+      </div>
+      <!-- Clients Section END -->
 
       ِ
     </div>
@@ -563,16 +648,17 @@
               style="width: 60px;"
             />
             <p>
-              <a href="#!">Company Profile</a>
+              <a href="http://bit.ly/2VqwDN6" target="_blank">Company Profile</a>
             </p>
             <p>
-              <a href="#!">Ongoing Projects</a>
+              <a href="./pages/ongoing-projects.html">Ongoing Projects</a>
             </p>
             <p>
               <a href="#!">About Us</a>
             </p>
             <p>
-              <a href="#!">Privacy Policy</a>
+              <!-- <a href="#!">Privacy Policy</a> -->
+              <a onClick="magicPhoto()">Magic</a>
             </p>
           </div>
           <!-- Grid column -->
@@ -624,7 +710,11 @@
       type="text/javascript"
       src="./assets/MDB/js/bootstrap.min.js"
     ></script>
+    <script src="./assets/js/app.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="./assets/MDB/js/mdb.min.js"></script>
+     <!-- carousel JS files -->
+     <script type="text/javascript" src="./assets/js/carousel.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
   </body>
 </html>

@@ -24,3 +24,13 @@ function contactUsForm() {
     "_blank"
   );
 }
+
+
+function magicPhoto(){
+  console.log('magicPhot-----')
+  fetch('http://www.splashbase.co/api/v1/images/random')
+  .then(res => res.json())
+  .then(res =>{
+    window.open(res.url, '_blank', 'height=320 width=480 left=100 top=100');
+  })
+}
