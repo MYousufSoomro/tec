@@ -41,7 +41,9 @@
     <link href="../assets/MDB/css/mdb.min.css" rel="stylesheet" />
     <!-- Your custom styles (optional) -->
     <link href="../assets/MDB/css/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="../assets/css/infinite-slider.css" />
+    <link href="../assets/css/cards-gallery.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
+
     <link
       rel="shortcut icon"
       type="image/png"
@@ -71,20 +73,19 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item ">
-            <a class="nav-link" href="../index.html">Home </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="./clients.html">Clients
-              <span class="sr-only">(current)</span>
+            <a class="nav-link" href="../index.html"
+              >Home
+              
             </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./clients.html">Clients</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="http://bit.ly/2VqwDN6" target="_blank">Company Profile</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./ongoing-projects.html"
-              >Ongoing Projects</a
-            >
+            <a class="nav-link" href="./ongoing-projects.html">Ongoing Projects</a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -105,13 +106,15 @@
             </div>
           </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="./projects_gallery.html">Projects Gallery</a>
+          <li class="nav-item active">
+            <a class="nav-link " href="./projects_gallery.html">Projects Gallery
+                <span class="sr-only">(current)</span>
+            </a>
+            
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./contact-us.html"
-              >Contact Us
-              
+            <a class="nav-link" href="./contact-us.html">Contact Us
+             
             </a>
           </li>
         </ul>
@@ -158,50 +161,70 @@
     <!--/.Navbar -->
 
     <div class="container container-fluid">
-      <div class="container">
-        <h1 class="text-center">Our Clients</h1>
-        <section class="customer-logos slider">
-          <div class="slide">
-            <img
-              src="../assets/images/clients/kirby-building-systems-official-logo.png"
-            />
-          </div>
-          <div class="slide">
-            <img
-              src="../assets/images/clients/meemar-building-systems-official-logo.png"
-            />
-          </div>
-          <div class="slide">
-            <img src="../assets/images/clients/nespak-official-logo.png" />
-          </div>
-          <div class="slide">
-              <img
-                src="../assets/images/clients/kirby-building-systems-official-logo.png"
-              />
+      <!--Section: Contact v.1-->
+      <section class="gallery-block cards-gallery">
+        <div class="container">
+              <h2 class="pb-2 text-center">Projects Gallery</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0 transform-on-hover">
+                      <a class="lightbox" href="../assets/images/gerry's dnatta steel shed karachi.jpg">
+                        <img src="../assets/images/gerry's dnatta steel shed karachi.jpg"" alt="Card Image" class="card-img-top">
+                      </a>
+                        <div class="card-body">
+                            <h6><a href="#">Gerry's Dnatta</a></h6>
+                            <p class="text-muted card-text">Erection of Pre-Engineered Building supplied by Kirby Building Systems</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0 transform-on-hover">
+              <a class="lightbox" href="../assets/images/ici pakistan peb work.jpg">
+                        <img src="../assets/images/ici pakistan peb work.jpg" alt="Card Image" class="card-img-top">
+                      </a>
+                        <div class="card-body">
+                            <h6><a href="#">ICI Pakistan</a></h6>
+                            <p class="text-muted card-text">Erection of Pre-Engineered Building supplied by Meemar Building Systems</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0 transform-on-hover">
+                      <a class="lightbox" href="../assets/images/indus motors steel shed karachi.jpg">
+                        <img src="../assets/images/indus motors steel shed karachi.jpg" alt="Card Image" class="card-img-top">
+                      </a>
+                        <div class="card-body">
+                            <h6><a href="#">Toyota Indus Motors</a></h6>
+                            <p class="text-muted card-text">Erection of Pre-Engineered Building supplied by Meemar Building Systems</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0 transform-on-hover">
+                      <a class="lightbox" href="../assets/images/mal pakistan steel shed karachi.jpg">
+                        <img src="../assets/images/mal pakistan steel shed karachi.jpg" alt="Card Image" class="card-img-top">
+                      </a>
+                        <div class="card-body">
+                            <h6><a href="#">MAL Pakistan</a></h6>
+                            <p class="text-muted card-text">Erection of Pre-Engineered Building supplied by Meemar Building Systems</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0 transform-on-hover">
+                      <a class="lightbox" href="../assets/images/scada industries factory, port qasim karachi.jpg">
+                        <img src="../assets/images/scada industries factory, port qasim karachi.jpg" alt="Card Image" class="card-img-top">
+                      </a>
+                        <div class="card-body">
+                            <h6><a href="#">SCADA Chemicals</a></h6>
+                            <p class="text-muted card-text">Construction of Production Plant, Utility Building, Warehouse & Infrastructure</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="slide">
-              <img
-                src="../assets/images/clients/meemar-building-systems-official-logo.png"
-              />
-            </div>
-            <div class="slide">
-              <img src="../assets/images/clients/nespak-official-logo.png" />
-            </div>
-            <div class="slide">
-                <img
-                  src="../assets/images/clients/kirby-building-systems-official-logo.png"
-                />
-              </div>
-              <div class="slide">
-                <img
-                  src="../assets/images/clients/meemar-building-systems-official-logo.png"
-                />
-              </div>
-              <div class="slide">
-                <img src="../assets/images/clients/nespak-official-logo.png" />
-              </div>
-        </section>
-      </div>
+        </div>
+      </section>
+      <!--Section: Contact v.1-->
     </div>
 
     <!-- Footer -->
@@ -345,6 +368,10 @@
     </footer>
     <!-- Footer -->
     <!-- SCRIPTS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.cards-gallery', { animation: 'slideIn'});
+    </script>
     <!-- JQuery -->
     <script
       type="text/javascript"
@@ -364,9 +391,6 @@
     <script type="text/javascript" src="../assets/MDB/js/mdb.min.js"></script>
 
     <script type="text/javascript" src="../assets/js/app.js"></script>
-    <!-- carousel JS files -->
-    <script type="text/javascript" src="../assets/js/carousel.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
       var Tawk_API = Tawk_API || {},
