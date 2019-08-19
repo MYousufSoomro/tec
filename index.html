@@ -54,9 +54,18 @@
     <nav
       class="mb-1 navbar navbar-expand-lg navbar-dark primary-color lighten-5 sticky-top"
     >
+      <a class="navbar-brand" href="/index.html">
+        <img
+        class="logoShadow"
+          src="./assets/images/official-tec-logo.png"
+          height="60px"
+          alt="tec logo"
+        />
+      </a>
       <a class="navbar-brand site-title" href="./index.html"
         >Top Engineering Construction</a
       >
+
       <button
         class="navbar-toggler"
         type="button"
@@ -80,14 +89,7 @@
             <a class="nav-link" href="./pages/clients.html">Clients</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="http://bit.ly/2VqwDN6" target="_blank"
-              >Company Profile</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./pages/ongoing-projects.html"
-              >Ongoing Projects</a
-            >
+            <a class="nav-link" href="./pages/profile.html">Profile</a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -96,21 +98,18 @@
               data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
-              >Completed Projects
+              >Projects
             </a>
             <div
               class="dropdown-menu dropdown-primary"
               aria-labelledby="navbarDropdownMenuLink-333"
             >
-              <a class="dropdown-item " href="#">Civil Works</a>
-              <a class="dropdown-item " href="#">PEB Works</a>
-              <a class="dropdown-item " href="#">Fabrication Works</a>
+              <a class="dropdown-item " href="./pages/ongoing-projects.html">Ongoing</a>
+              <a class="dropdown-item " href="./pages/projects_completed.html">Completed</a>
+              <a class="dropdown-item " href="./pages/projects_gallery.html">Gallery</a>
             </div>
           </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="./pages/projects_gallery.html">Projects Gallery</a>
-          </li>
           <li class="nav-item">
             <a class="nav-link" href="./pages/contact-us.html">Contact Us</a>
           </li>
@@ -294,13 +293,15 @@
       </div>
       <!--/.Carousel Wrapper-->
 
-      <h1 class="h1-responsive pt-5">Introduction</h1>
+      <h1 class="h1-responsive font-weight-bold my-5 text-center">
+        Introduction
+      </h1>
       <p>
         Originally, we were engaged in the field of all kinds of Mechanical,
         Fabrication Pre Engineering Steel Structure Buildings in Pakistan.
       </p>
 
-      <h3 class="h3-responsive">About us</h3>
+      <h3 class="h1-responsive font-weight-bold my-5 text-center">About us</h3>
       <p>
         Top Engineering Construction Company (Former Baloch brothers & Company)
         was established in year 2003 as a general Civil, Mechanical and
@@ -319,7 +320,7 @@
         <p class="bq-title">Our Moto is</p>
         <p>
           <em
-            ><q><strong>We believe in quality not quantity</strong></q></em
+            ><q><strong>We believe in quality</strong></q></em
           >
         </p>
       </blockquote>
@@ -342,7 +343,7 @@
       <!-- Section: Team v.1 -->
       <section class="team-section text-center my-5">
         <!-- Section heading -->
-        <h2 class="h1-responsive font-weight-bold my-5">Our amazing team</h2>
+        <h2 class="h1-responsive font-weight-bold my-5">Our Team</h2>
         <!-- Section description -->
         <p class="grey-text w-responsive mx-auto mb-5">
           Meet our team members and stay connected with them through social
@@ -355,7 +356,7 @@
           <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
             <div class="avatar mx-auto">
               <img
-                src="./assets/images/m-shahid.jpg"
+                src="https://graph.facebook.com/100012009191730/picture?type=large"
                 class="rounded-circle z-depth-1"
                 alt="Sample avatar"
               />
@@ -382,7 +383,7 @@
           <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
             <div class="avatar mx-auto">
               <img
-                src="./assets/images/shakeel-ahmed.jpg"
+                src="https://graph.facebook.com/100006069610855/picture?type=large"
                 class="rounded-circle z-depth-1"
                 alt="Sample avatar"
               />
@@ -409,7 +410,7 @@
           <div class="col-lg-3 col-md-6 mb-md-0 mb-5">
             <div class="avatar mx-auto">
               <img
-                src="./assets/images/m-arif.jpg"
+                src="https://graph.facebook.com/100009973506175/picture?type=large"
                 class="rounded-circle z-depth-1"
                 alt="Sample avatar"
               />
@@ -436,9 +437,11 @@
           <div class="col-lg-3 col-md-6">
             <div class="avatar mx-auto">
               <img
-                src="./assets/images/m-yousuf.jpg"
+                src="https://graph.facebook.com/100016232766546/picture?type=large"
                 class="rounded-circle z-depth-1"
                 alt="Sample avatar"
+                width="250px"
+                height="250px"
               />
             </div>
             <h5 class="font-weight-bold mt-4 mb-3">Muhammad Yousuf</h5>
@@ -510,7 +513,9 @@
       <hr />
       <!-- Clients Section START -->
       <div class="container">
-        <h2 class="h1-responsive font-weight-bold my-5">Our Clients</h2>
+        <h2 class="h1-responsive font-weight-bold my-5 text-center">
+          Our Clients
+        </h2>
         <section class="customer-logos slider">
           <div class="slide">
             <img
@@ -562,6 +567,14 @@
             />
           </div>
         </section>
+        <div class="text-right">
+          <a href="./pages/clients.html">
+            <button class="btn btn-primary btn-sm">
+              <i class="fas fa-link mr-1"></i> See All
+            </button>
+          </a>
+        </div>
+        >
       </div>
       <!-- Clients Section END -->
 
@@ -660,7 +673,7 @@
               style="width: 60px;"
             />
             <p>
-              <a href="http://bit.ly/2VqwDN6" target="_blank"
+              <a href="./pages/profile.html" 
                 >Company Profile</a
               >
             </p>
@@ -672,7 +685,7 @@
             </p>
             <p>
               <!-- <a href="#!">Privacy Policy</a> -->
-              <a onClick="magicPhoto()">Magic</a>
+              <a href="./pages/privacy-policy.html">Privacy Policy</a>
             </p>
           </div>
           <!-- Grid column -->

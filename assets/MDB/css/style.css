@@ -2,7 +2,7 @@
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     font-weight: bold;
-    text-shadow: 2px 2px 2px darkgray;
+    text-shadow: 1px 1px 1px darkgray;
 }
 
 #carousel-example-2 {
@@ -26,4 +26,9 @@
 
 .clientsArea{
     box-shadow: 0px 1px 10px black;
+}
+
+.logoShadow {
+    filter: drop-shadow(2px 8px 15px #fff);
+    -webkit-filter: drop-shadow(2px 8px 15px #fff);
 }
