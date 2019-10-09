@@ -1,5 +1,12 @@
 body{
     background:#f5f5f5;
+    /* background:white; */
+}
+
+.profile__container{
+    background:white;
+    /* background:#f5f5f5; */
+    /* box-shadow: 0px 1px 8px rgb(65, 65, 65); */
 }
 /**
  * Panels
@@ -154,7 +161,7 @@ body{
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  background-color: #f5f5f5;
+  background-color: white;
   color: #c6c6cc;
 }
 .profile__contact-info-item {
@@ -199,4 +206,7 @@ body{
   margin-bottom: 5px;
   font-weight: 500;
   color: #999999;
+}
+.profile__img{
+  box-shadow: 0px 1px 8px rgb(65, 65, 65);
 }
