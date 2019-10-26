@@ -4,7 +4,7 @@
     <!-- SITE META TAGS  -->
     <meta
       name="title"
-      content="Projects Completed - Top Engineering Construction"
+      content="Fabrication Projects - Top Engineering Construction"
     />
     <meta
       name="description"
@@ -27,7 +27,7 @@
     <meta name="theme-color" content="#4285F4" />
 
     <title>
-      Projects Completed - Top Engineering Construction
+      Fabrication Projects - Top Engineering Construction
     </title>
     <!-- Font Awesome -->
     <link
@@ -40,17 +40,22 @@
     <link href="../assets/MDB/css/mdb.min.css" rel="stylesheet" />
     <!-- Your custom styles (optional) -->
     <link href="../assets/MDB/css/style.css" rel="stylesheet" />
-    <link href="../assets/css/cards-gallery.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css"
-    />
-
     <link
       rel="shortcut icon"
       type="image/png"
       href="../assets/images/official-tec-logo.png"
     />
+    <!-- JQuery -->
+    <script
+      type="text/javascript"
+      src="../assets/MDB/js/jquery-3.3.1.min.js"
+    ></script>
+    <link href="../assets/MDB/css/addons/datatables.min.css" rel="stylesheet" />
+
+    <script
+      src="../assets/MDB/js/addons/datatables.min.js"
+      type="text/javascript"
+    ></script>
   </head>
 
   <body>
@@ -82,7 +87,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item ">
+          <li class="nav-item">
             <a class="nav-link" href="../index.html">Home </a>
           </li>
           <li class="nav-item">
@@ -107,14 +112,16 @@
               <a class="dropdown-item " href="./ongoing-projects.html"
                 >Ongoing</a
               >
-              <a class="dropdown-item " href="./projects_completed.html">Completed</a>
+              <a class="dropdown-item " href="./projects_completed.html"
+                >Completed</a
+              >
               <a class="dropdown-item " href="./projects_gallery.html"
                 >Gallery</a
               >
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./contact-us.html">Contact Us </a>
+            <a class="nav-link" href="./contact-us.html">Contact Us</a>
           </li>
         </ul>
         <ul class="navbar-nav ml-auto nav-flex-icons">
@@ -159,69 +166,123 @@
     </nav>
     <!--/.Navbar -->
 
+    <!-- Body Content -->
     <div class="container container-fluid">
-        <h1 class="h1-responsive font-weight-bold my-5 text-center">Completed Projects</h1>
-      <div class="card-columns">
-      <!-- Card  -->
-        <div class="card card-cascade wider mt-2 mb-3">
-          <div class="view view-cascade overlay">
-            <img
-              class="card-img-top"
-              src="../assets/images/peb buildings.jpg"
-              alt="Card image cap"
-            />
-            <a href="./peb-projects.html">
-              <div class="mask rgba-white-slight"></div>
-            </a>
-          </div>
-          <div class="card-body card-body-cascade text-center">
-            <a class="blue-text pb-2 fa-1x" href="./peb-projects.html"
-              ><strong>PEB</strong></a
-            >
-          </div>
-        </div>
-      <!-- Card  -->
-
-      <!-- Card  -->
-          <div class="card card-cascade wider mt-2 mb-3">
-            <div class="view view-cascade overlay">
-              <img
-                class="card-img-top"
-                src="../assets/images/civil works.jpeg"
-                alt="Card image cap"
-              />
-              <a href="./civil-projects.html">
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-            <div class="card-body card-body-cascade text-center">
-              <a class="blue-text pb-2 fa-1x" href="./civil-projects.html"
-                ><strong>Civil</strong></a
-              >
-            </div>
-          </div>
-        <!-- Card  -->
-
-         <!-- Card  -->
-          <div class="card card-cascade wider mt-2 mb-3">
-            <div class="view view-cascade overlay">
-              <img
-                class="card-img-top"
-                src="../assets/images/fabrication works.jpeg"
-                alt="Card image cap"
-              />
-              <a href="./fabrication-projects.html">
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-            <div class="card-body card-body-cascade text-center">
-              <a class="blue-text pb-2 fa-1x" href="./fabrication-projects.html"
-                ><strong>Fabrication</strong></a
-              >
-            </div>
-          </div>
-          <!-- Card  -->
-        </div>
+      <h2 class="h1-responsive font-weight-bold my-5 text-center">
+        Fabrication Projects
+      </h2>
+      <div class="table-responsive">
+        <table id="dtBasicExample" class="table table-striped ">
+          <thead>
+            <tr class="bg-primary white-text">
+              <th scope="col">#</th>
+              <th scope="col">Project Name</th>
+              <th scope="col">Client</th>
+              <th scope="col">Consultant</th>
+              <th scope="col">Volume</th>
+              <th scope="col">Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Supply, Fabrication & Erection of Steel Shed</td>
+              <td>Dawlance Pakistan</td>
+              <td>-</td>
+              <td>50 TON</td>
+              <td>15 Million</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Fabrication & Erection of Steel Shed</td>
+              <td>Shafi Gluco</td>
+              <td>A.A Associates</td>
+              <td>20 TON</td>
+              <td>0.45 Million</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Replacement of Sheets</td>
+              <td>Toyota Central Motors</td>
+              <td>-</td>
+              <td>60,000 SFT</td>
+              <td>10 Million</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Replacement of Sheets & Framing</td>
+              <td>Jin Kwang Jaz</td>
+              <td>M.R. Ali Consulting Engineers</td>
+              <td>55,000 SFT</td>
+              <td>15 Million</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>Supply, Fabrication & Erection of Steel Shed</td>
+              <td>Noor Engineering Services</td>
+              <td>M.R. Ali Consulting Engineers</td>
+              <td>115 TON</td>
+              <td>18 Million</td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>Supply, Fabrication & Erection of Pre Engineered Building</td>
+              <td>AL-Abbas Fabrics</td>
+              <td>-</td>
+              <td>5,000 SFT</td>
+              <td>3.5 Million</td>
+            </tr>
+            <tr>
+              <th scope="row">7</th>
+              <td>Supply, Fabrication & Erection of Pre Engineered Building</td>
+              <td>Innova Packages</td>
+              <td>S.M.K Associates</td>
+              <td>12,750 SFT</td>
+              <td>10.1 Million</td>
+            </tr>
+            <tr>
+              <th scope="row">8</th>
+              <td>Supply, Fabrication & Erection of Pre Engineered Building</td>
+              <td>Orient Oil Pvt. Limited</td>
+              <td>-</td>
+              <td>2,000 SFT</td>
+              <td>2.7 Million</td>
+            </tr>
+            <tr>
+              <th scope="row">9</th>
+              <td>Supply, Fabrication & Erection of Low Gravity Structure</td>
+              <td>F.P.C.L (FFBL)</td>
+              <td>NESPAK</td>
+              <td>3,200 SFT</td>
+              <td>5 Million</td>
+            </tr>
+            <tr>
+              <th scope="row">10</th>
+              <td>Supply, Fabrication & Erection of Steel Structure</td>
+              <td>SCADA Chemical Industries</td>
+              <td>SAS Engineers</td>
+              <td>150 TON</td>
+              <td>20 Million</td>
+            </tr>
+            <tr>
+              <th scope="row">11</th>
+              <td>Supply, Fabrication & Erection of Steel Structure</td>
+              <td>Alliance Chemicals</td>
+              <td>SAS Engineers</td>
+              <td>50 TON</td>
+              <td>10 Million</td>
+            </tr>
+            <tr>
+              <th scope="row">12</th>
+              <td>Supply, Fabrication & Erection of Fire Escape Stairs</td>
+              <td>Grand Leisure Corporation</td>
+              <td>Shakeel Hyder</td>
+              <td>25 TON</td>
+              <td>4 Million</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
 
     <!-- Footer -->
@@ -317,9 +378,7 @@
               style="width: 60px;"
             />
             <p>
-              <a href="./profile.html" 
-                >Company Profile</a
-              >
+              <a href="./profile.html">Company Profile</a>
             </p>
             <p>
               <a href="./ongoing-projects.html">Ongoing Projects</a>
@@ -368,15 +427,7 @@
     </footer>
     <!-- Footer -->
     <!-- SCRIPTS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
-    <script>
-      baguetteBox.run(".cards-gallery", { animation: "slideIn" });
-    </script>
-    <!-- JQuery -->
-    <script
-      type="text/javascript"
-      src="../assets/MDB/js/jquery-3.3.1.min.js"
-    ></script>
+    
     <!-- Bootstrap tooltips -->
     <script
       type="text/javascript"
@@ -389,7 +440,6 @@
     ></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="../assets/MDB/js/mdb.min.js"></script>
-
     <script type="text/javascript" src="../assets/js/app.js"></script>
   </body>
 </html>

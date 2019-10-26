@@ -25,7 +25,7 @@ function contactUsForm() {
   );
 }
 
-window.document.getElementById('last_update').innerHTML = "Last updated 21-Oct-19";
+window.document.getElementById('last_update').innerHTML = "Last updated 26-Oct-19";
 
 // Start of Tawk.to Script
 var Tawk_API = Tawk_API || {},
@@ -42,7 +42,9 @@ var Tawk_API = Tawk_API || {},
 // End of Tawk.to Script
 
 $(document).ready(function () {
-  $('#dtBasicExample').DataTable();
+  $('#dtBasicExample').DataTable({
+    "ordering": false // false to disable sorting (or any other option)
+    });
   $('.dataTables_length').addClass('bs-select');
-  });
+});
   
