@@ -48,6 +48,7 @@
     />
     <link rel="stylesheet" href="./assets/css/infinite-slider.css" />
     <link rel="manifest" href="./manifest.json" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
   </head>
 
   <body>
@@ -57,7 +58,7 @@
     >
       <a class="navbar-brand" href="./index.html">
         <img
-        class="logoShadow"
+          class="logoShadow"
           src="./assets/images/official-tec-logo.png"
           height="60px"
           alt="tec logo"
@@ -105,9 +106,15 @@
               class="dropdown-menu dropdown-primary"
               aria-labelledby="navbarDropdownMenuLink-333"
             >
-              <a class="dropdown-item " href="./pages/ongoing-projects.html">Ongoing</a>
-              <a class="dropdown-item " href="./pages/projects_completed.html">Completed</a>
-              <a class="dropdown-item " href="./pages/projects_gallery.html">Gallery</a>
+              <a class="dropdown-item " href="./pages/ongoing-projects.html"
+                >Ongoing</a
+              >
+              <a class="dropdown-item " href="./pages/projects_completed.html"
+                >Completed</a
+              >
+              <a class="dropdown-item " href="./pages/projects_gallery.html"
+                >Gallery</a
+              >
             </div>
           </li>
 
@@ -369,10 +376,11 @@
             <ul class="list-unstyled mb-0">
               <a
                 href="void:0"
+                onclick="profileNotAvailable()"
                 class="p-2 btn blue-gradient btn-rounded text-white"
                 title="More about Muhammad Shahid"
               >
-                More Info
+                View Profile
               </a>
             </ul>
           </div>
@@ -394,10 +402,11 @@
             <ul class="list-unstyled mb-0">
               <a
                 href="void:0"
+                onclick="profileNotAvailable()"
                 class="p-2 btn blue-gradient btn-rounded text-white"
                 title="More about Shakeel Ahmed"
               >
-                More Info
+                View Profile
               </a>
             </ul>
           </div>
@@ -407,24 +416,22 @@
           <div class="col-lg-3 col-md-6 mb-md-0 mb-5">
             <div class="avatar mx-auto">
               <img
-                src="https://graph.facebook.com/100009973506175/picture?type=large"
+                src="https://scontent.fkhi16-1.fna.fbcdn.net/v/t1.0-9/p960x960/69804076_10215115133407492_3711374269465231360_o.jpg?_nc_cat=104&_nc_ohc=SViEnAtaWwsAX-DDOrb&_nc_ht=scontent.fkhi16-1.fna&_nc_tp=6&oh=156eb0733f6d80d062cd62b59ecbb83d&oe=5EDA76E3"
                 class="rounded-circle z-depth-1"
                 alt="Sample avatar"
               />
             </div>
-            <h5 class="font-weight-bold mt-4 mb-3">Muhammad Arif</h5>
+            <h5 class="font-weight-bold mt-4 mb-3">Ayaz Hussain Soomro</h5>
             <p class="text-uppercase blue-text">
-              <strong>Project Coordinator</strong>
+              <strong>Manager Projects</strong>
             </p>
             <ul class="list-unstyled mb-0">
               <a
-                href="void:0"
+                href="./team/ayazhussain.html"
                 class="p-2 btn blue-gradient btn-rounded text-white"
-                title="More about Muhammad Arif"
-                disabled
+                title="More about Ayaz Hussain Soomro"
               >
-              More Info
-
+                View Profile
               </a>
             </ul>
           </div>
@@ -451,7 +458,7 @@
                 class="p-2 btn blue-gradient btn-rounded text-white"
                 title="More about Muhammad Yousuf"
               >
-                More Info
+                View Profile
               </a>
             </ul>
           </div>
@@ -459,7 +466,7 @@
         </div>
         <!-- Grid row -->
       </section>
-      
+
       <div class="text-right">
         <a href="./team/index.html">
           <button class="btn btn-primary btn-sm">
@@ -467,7 +474,6 @@
           </button>
         </a>
       </div>
-      
 
       <!-- Section: Team v.1 -->
       <hr />
@@ -634,9 +640,7 @@
               style="width: 60px;"
             />
             <p>
-              <a href="./pages/profile.html" 
-                >Company Profile</a
-              >
+              <a href="./pages/profile.html">Company Profile</a>
             </p>
             <p>
               <a href="./pages/ongoing-projects.html">Ongoing Projects</a>
