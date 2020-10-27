@@ -25,7 +25,7 @@ function contactUsForm() {
   );
 }
 
-window.document.getElementById('last_update').innerHTML = "Last updated 03-Feb-2020";
+window.document.getElementById('last_update').innerHTML = "Last updated 27-Oct-2020";
 
 // Start of Tawk.to Script
 var Tawk_API = Tawk_API || {},
