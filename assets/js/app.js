@@ -25,7 +25,7 @@ function contactUsForm() {
   );
 }
 
-window.document.getElementById('last_update').innerHTML = "Last updated 22-Feb-2021";
+window.document.getElementById('last_update').innerHTML = "Last updated 22-Mar-2021";
 
 $(document).ready(function () {
   $('#dtBasicExample').DataTable({
