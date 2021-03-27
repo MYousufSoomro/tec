@@ -1,4 +1,4 @@
-window.document.getElementById('last_update').innerHTML = "Last updated 25-Mar-2021";
+window.document.getElementById('last_update').innerHTML = "Last updated 27-Mar-2021";
 
 function downloadProfile(){
   window.location.href = "http://bit.ly/TECprofile";

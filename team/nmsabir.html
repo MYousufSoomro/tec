@@ -4,7 +4,7 @@
     <!-- SITE META TAGS  -->
     <meta
       name="title"
-      content="Company Profile - Top Engineering Construction"
+      content="Noor Muhammad Sabir (Manager Accounts) - Top Engineering Construction"
     />
     <meta
       name="description"
@@ -27,7 +27,7 @@
     <meta name="theme-color" content="#4285F4" />
 
     <title>
-      Company Profile - Top Engineering Construction
+      Noor Muhammad Sabir (Manager Accounts) - Top Engineering Construction
     </title>
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -47,7 +47,7 @@
     <link href="../assets/MDB/css/mdb.min.css" rel="stylesheet" />
     <!-- Your custom styles (optional) -->
     <link href="../assets/MDB/css/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="../assets/css/infinite-slider.css" />
+    <link rel="stylesheet" href="../assets/css/css-profile.css" />
     <link
       rel="shortcut icon"
       type="image/png"
@@ -93,10 +93,10 @@ window.fbAsyncInit = function() {
     >
       <a class="navbar-brand" href="../index.html">
         <img
-        class="logoShadow"
+          class="logoShadow"
           src="../assets/images/official-tec-logo.png"
           height="60px"
-          alt="tec logo"  
+          alt="tec logo"
         />
       </a>
       <a class="navbar-brand site-title" href="../index.html"
@@ -119,12 +119,11 @@ window.fbAsyncInit = function() {
             <a class="nav-link" href="../index.html">Home </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./clients.html">Clients </a>
+            <a class="nav-link" href="../pages/clients.html">Clients </a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="./profile.html"
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/profile.html"
               >Profile
-              <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item dropdown">
@@ -140,16 +139,22 @@ window.fbAsyncInit = function() {
               class="dropdown-menu dropdown-primary"
               aria-labelledby="navbarDropdownMenuLink-333"
             >
-              <a class="dropdown-item " href="./ongoing-projects.html">Ongoing</a>
-              <a class="dropdown-item " href="./projects_completed.html">Completed</a>
-              <a class="dropdown-item " href="./projects_gallery.html">Gallery</a>
+              <a class="dropdown-item " href="../pages/ongoing-projects.html"
+                >Ongoing</a
+              >
+              <a class="dropdown-item " href="../pages/projects_completed.html"
+                >Completed</a
+              >
+              <a class="dropdown-item " href="../pages/projects_gallery.html"
+                >Gallery</a
+              >
             </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://tecpk.com/careers" target="_blank">Careers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./contact-us.html">Contact Us </a>
+            <a class="nav-link" href="../pages/contact-us.html">Contact Us </a>
           </li>
         </ul>
         <ul class="navbar-nav ml-auto nav-flex-icons">
@@ -194,24 +199,72 @@ window.fbAsyncInit = function() {
     </nav>
     <!--/.Navbar -->
 
+    <!-- Profile Area  -->
+    <div class="container profile__container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-9 mb-5">
+          <!-- User profile -->
+          <div class="panel panel-default mt-5">
+            <div class="panel-body">
+              <div class="profile__avatar profile__img">
+                <img
+                  src="https://unavatar.now.sh/facebook/nmsabir5"
+                  alt="..."
+                />
+              </div>
+              <div class="profile__header">
+                <h3 class="text-primary text-uppercase panel-title">
+                  <strong>Noor Muhammad Sabir</strong>
+                </h3>
+                <small>(Manager Accounts)</small>
+                <p class="text-muted">
+                  Working as Manager Accounts at Top Engineering Construction since 2013.
+                </p>
+                <p>
+                  <a
+                    href="https://www.facebook.com/nmsabir5"
+                    target="_blank"
+                    style="color: #1778F2;"
+                    ><i class="fab fa-facebook fa-2x mr-2"></i
+                  ></a>
+                </p>
+              </div>
+            </div>
+          </div>
 
-
-
-
-    
-
-    <div class="container container-fluid">
-      <div class="container">
-        <h1 class="h1-responsive font-weight-bold my-5 text-center">Company Profile</h1>
-        <div class="mt-3 mb-3"><button class="btn btn-primary btn-block waves-effect waves-light tec-profile-download" onclick="downloadProfile()"><i class="fas fa-download"></i> Download Company Profile</button>
         </div>
-        <iframe
-          src="https://drive.google.com/file/d/19DrfsWa5IgJtHJaw2paLDPyZ2RQuzKkN/preview"
-          width="100%"
-          height="480"
-        ></iframe>
+        <div class="col-xs-12 col-sm-3 mt-5">
+          <!-- Contact user -->
+          <p>
+            <a
+              href="https://www.facebook.com/nmsabir5"
+              target="_blank"
+              class="profile__contact-btn btn btn-lg btn-block btn-primary"
+            >
+              <i class="fab fa-facebook white-text mr-2"> </i>Follow
+            </a>
+          </p>
+
+          <hr class="profile__contact-hr" />
+
+          <!-- Contact info -->
+          <div class="profile__contact-info">
+            <div class="profile__contact-info-item">
+              <div class="profile__contact-info-icon text-primary">
+                <i class="fa fa-envelope-square"></i>
+              </div>
+              <div class="profile__contact-info-body">
+                <h5 class="profile__contact-info-heading text-primary">
+                  E-mail address
+                </h5>
+                <a href="mailto:accounts@tecpk.com">accounts@tecpk.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+    <!--/// Profile Area  -->
 
     <!-- Footer -->
     <footer class="page-footer font-small unique-color-dark">
@@ -306,21 +359,19 @@ window.fbAsyncInit = function() {
               style="width: 60px;"
             />
             <p>
-              <a href="./profile.html" 
-                >Company Profile</a
-              >
+              <a href="../pages/profile.html">Company Profile</a>
             </p>
             <p>
-              <a href="./ongoing-projects.html">Ongoing Projects</a>
+              <a href="../pages/ongoing-projects.html">Ongoing Projects</a>
             </p>
             <p>
-              <a href="./hse-policy.html">HSE Policy</a>
+              <a href="../pages/hse-policy.html">HSE Policy</a>
             </p>
             <p>
-              <a href="./privacy-policy.html">Privacy Policy</a>
+              <a href="../pages/privacy-policy.html">Privacy Policy</a>
             </p>
             <p>
-              <a href="../team/index.html">Our Team</a>
+              <a href="./index.html">Our Team</a>
             </p>
           </div>
           <!-- Grid column -->
@@ -360,32 +411,6 @@ window.fbAsyncInit = function() {
     </footer>
     <!-- Footer -->
     <!-- SCRIPTS -->
-
-
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Top Engineering Construction",
-        "alternateName": "TECPK",
-        "url": "https://tecpk.com/",
-        "logo": "https://tecpk.com/assets/images/official-tec-logo.png",
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "telephone": "+922134970117",
-          "contactType": "customer service",
-          "areaServed": "PK",
-          "availableLanguage": ["en","Urdu"]
-        },
-        "sameAs": [
-          "https://www.facebook.com/tecpk",
-          "https://www.twitter.com/tec_pk",
-          "https://www.linkedin.com/company/top-engineering-construction",
-          "https://tecpk.com/",
-          "https://g.page/TECPk"
-        ]
-      }
-      </script>
     <!-- JQuery -->
     <script
       type="text/javascript"
@@ -404,7 +429,7 @@ window.fbAsyncInit = function() {
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="../assets/MDB/js/mdb.min.js"></script>
 
-    <script type="text/javascript" src="../assets/js/app.js"></script>
+    <script type="text/javascript" src="../assets/js/ app.js"></script>
     <!-- carousel JS files -->
     <script type="text/javascript" src="../assets/js/carousel.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
